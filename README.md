@@ -163,6 +163,56 @@
 
 ---
 
+
+### 🛠 Agent Frameworks (Build Custom AI Agents)
+
+- [**Agno**](https://github.com/agnostack/agno) – Minimal framework for creating custom Python agents with tools, memory, and autonomous behavior.
+- [**LangChain**](https://www.langchain.com/) – Framework for building LLM-powered apps with chains, agents, tools, memory, and retrieval.
+- [**CrewAI**](https://github.com/joaomdmoura/crewAI) – Multi-agent coordination system for assigning roles and tasks to different agents.
+- [**AutoGen (Microsoft)**](https://github.com/microsoft/autogen) – Framework to enable multiple agents to collaborate, debate, or plan together.
+- [**OpenDevin**](https://github.com/OpenDevin/OpenDevin) – Experimental open-source dev agent capable of planning and executing coding tasks in a shell.
+
+---
+
+### 📚 RAG (Retrieval-Augmented Generation) Tools
+
+- [**LlamaIndex**](https://www.llamaindex.ai/) – Framework to load, chunk, index, and query your own data using LLMs. Perfect for building chatbots that understand your Python repo/docs.
+- [**Haystack (Deepset)**](https://haystack.deepset.ai/) – Enterprise-grade open source RAG pipeline for document search, QA, and assistants.
+- [**Unstructured.io**](https://unstructured.io/) – Tool to preprocess unstructured data (PDFs, Markdown, HTML, etc.) for RAG pipelines.
+
+---
+
+### ⚙️ Agents-as-Tools Libraries
+
+- [**Semantic Router**](https://github.com/rogeriochaves/semantic-router) – Routes natural language commands to tools based on intent detection.
+- [**ToolEmu (OpenAI)**](https://github.com/openai/tool-emu) – Tool use emulator and trainer for LLM agents.
+- [**Autogen Studio**](https://autogenstudio.com/) – UI-based orchestration to build and test agents visually (uses AutoGen backend).
+
+---
+
+### 🧪 Open-Source Agent Toolkits (Lightweight)
+
+- [**AgentLite**](https://github.com/guaguakai/agentlite) – Lightweight LangChain alternative for building simple, fast agents.
+- [**Autonomous GPT**](https://github.com/Significant-Gravitas/Auto-GPT) – Experimental AI agent that can plan and act independently using goals and feedback.
+- [**Camel-AI**](https://github.com/camel-ai/camel) – Role-playing agents with collaborative conversations and multi-turn planning.
+
+---
+
+### 🧰 Use Cases for this Repo
+
+| Use Case                                      | Recommended Tool       |
+|----------------------------------------------|------------------------|
+| Chat with your Python files & notes          | `LlamaIndex`, `LangChain` |
+| Automate tasks in the repo                   | `Agno`, `AutoGen`, `CrewAI` |
+| Build a smart code assistant for your scripts| `Agno`, `OpenDevin`    |
+| RAG chatbot for your Markdown/docs           | `LlamaIndex`, `Haystack` |
+| Multi-agent systems for complex workflows    | `CrewAI`, `AutoGen`    |
+
+---
+
+
+
+
 ## 📌 Notes
 
 - This is my **personal tracker** for everything Python-related.
